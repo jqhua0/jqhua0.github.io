@@ -1,0 +1,432 @@
+body {
+  margin: 0;
+  font-family: "Garamond", sans-serif;
+  color: gray;
+}
+/* section for logo */
+#header-icon {
+  font-size: 80px;
+  text-align: left;
+}
+#logo {
+  font-size: 30px;
+  font-family: cursive, sans-serif;
+  text-align: left;
+  display: inline-flex;
+  text-decoration: none;
+}
+.header-logo a {
+  color: gray;
+  text-decoration: none;
+}
+a:hover {
+  color: lightgray;
+  transition: 0.35s;
+}
+.header-logo {
+  display: flex;
+}
+/* section for header */
+header {
+  background-color: #fff;
+  height: 470px;
+  position: relative;
+}
+header h1 {
+  position: absolute;
+  z-index: 1;
+  top: 150px;
+  left: 37%;
+  color: rgba(255, 255, 255, 0.61);
+  font-family: cursive, sans-serif;
+  font-size: 70px;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.56);
+}
+.slick-slide img,
+.servicePage .slick-slide img {
+  width: 100%;
+  height: 480px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+.sidebar {
+  display: none;
+  background-color: white;
+  height: 550px;
+  width: 90%;
+  text-align: left;
+}
+.hamburger {
+  display: none;
+}
+
+i .fa,
+.fas {
+  display: none;
+  font-size: 40px;
+}
+
+nav {
+  padding: 30px;
+  text-align: right;
+  position: sticky;
+  z-index: 1;
+}
+nav a {
+  letter-spacing: 0.5px;
+  text-align: center;
+  padding: 0 10px;
+  text-decoration: none;
+  font-size: 20px;
+  color: gray;
+  text-transform: uppercase;
+  padding: 0 20px;
+}
+/* main body */
+.bodyBlock {
+  margin: auto 10%;
+  line-height: 2rem;
+  letter-spacing: 0.8px;
+  background-image: url("../images/spabackground5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+.bodySection {
+  margin: auto 10%;
+}
+.bodySection h2 {
+  font-size: 40px;
+  font-family: cursive, sans-serif;
+}
+.services {
+  display: flex;
+}
+.serviceItem {
+  flex: 100%;
+  height: 210px;
+  position: relative;
+}
+.serviceItem h2 {
+  text-align: center;
+  font-size: 45px;
+  color: rgba(255, 255, 255, 0.729);
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.78);
+  font-family: cursive, sans-serif;
+  font-weight: bold;
+  margin: 0;
+}
+.opaqueBlock {
+  background-color: rgba(255, 255, 255, 0.25);
+  height: 90%;
+  margin: 11px auto;
+  width: 90%;
+}
+.serviceItem a {
+  border: 1px solid lightgray;
+  background-color: transparent;
+  font-size: 11px;
+  font-family: "arial", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.67);
+  padding: 10px 50px;
+  position: absolute;
+  top: 50%;
+  left: 33%;
+}
+.serviceItem a:hover {
+  transition: 0.3s ease-in-out;
+  background-color: lightgray;
+}
+
+#massageBlock {
+  background-image: url(../images/spafocus1.jpg);
+  background-position: 3% 52%;
+}
+#facialsBlock {
+  background-image: url(../images/spafacial.jpg);
+}
+#aromaBlock {
+  background-image: url(../images/spaaromatherapy.jpg);
+  background-position: 10% 45%;
+}
+.exclusiveImg,
+.servicePage .exclusiveImg {
+  width: 100%;
+}
+h2 {
+  font-size: 30px;
+  font-family: cursive, sans-serif;
+  margin: 0;
+  padding: 15px 0;
+}
+footer {
+  margin: auto 10%;
+  display: flex;
+  justify-content: space-between;
+}
+footer input::placeholder {
+  color: lightgray;
+}
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+footer a {
+  color: gray;
+}
+footer i {
+  letter-spacing: 20px;
+  padding: 10px;
+}
+.exclusive {
+  text-align: center;
+}
+.exclusive #email {
+  margin: 5px 0;
+  width: 180px;
+  padding: 8px;
+  color: lightgray;
+  text-align: center;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+}
+.exclusive #button {
+  margin: 5px 0;
+  width: 200px;
+  color: lightgray;
+}
+
+/* below begins Services css */
+
+.servicePage .bodySection {
+  background-image: url("../images/spabackground4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+.servicePage .bodyBlock {
+  margin: 0 auto;
+}
+.divBlock {
+  display: flex;
+  background-color: rgba(117, 197, 168, 0.12);
+}
+.servicePage .header {
+  background-color: #fff;
+  height: 470px;
+  position: relative;
+}
+
+.servicePage img {
+  width: 450px;
+  height: 350px;
+}
+.servicePage h1 {
+  font-family: cursive, sans-serif;
+  font-size: 70px;
+  text-align: center;
+  margin: 0;
+  padding: 50px;
+}
+.servicePage button {
+  margin: 0 auto;
+  width: 150px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  text-align: center;
+  color: gray;
+  display: block;
+}
+.servicePage button h4 {
+  text-transform: uppercase;
+}
+
+.firstSecondBlock,
+.thirdFourthBlock,
+.fifthSixthBlock,
+.seventhEigthBlock {
+  display: flex;
+}
+.firstBlock,
+.secondBlock,
+.thirdBlock,
+.fourthBlock,
+.fifthBlock,
+.sixthBlock,
+.seventhBlock,
+.eighthBlock {
+  border: 1px solid rgba(117, 197, 168, 0.12);
+  padding: 10px;
+  margin: 10px;
+}
+.swedishModal,
+.deepTissueModal,
+.sportsTherapyModal,
+.prenatalModal,
+.honeyFacialModal,
+.seaweedFacialModal,
+.aromaModal,
+.hotStonesModal {
+  padding: 40px;
+  background-color: rgba(117, 197, 168, 0.51);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.swedishModalContent,
+.deepTissueModalContent,
+.sportsTherapyModalContent,
+.prenatalModalContent,
+.honeyFacialModalContent,
+.seaweedFacialModalContent,
+.aromaModalContent,
+.hotStonesModalContent {
+  padding: 40px 20px;
+  color: #444;
+  background-color: white;
+  width: 60%;
+  text-align: center;
+}
+.servicePage .close {
+  width: 150px;
+  padding: 5px;
+}
+.slick-track {
+  width: 100%;
+}
+
+/* below begins Book online css */
+.bookPage form h1 {
+  font-family: cursive, sans-serif;
+}
+.bookPage form {
+  margin: 50px 20%;
+  padding: 50px 200px;
+  border: 1px solid lightgray;
+  border-radius: 30px;
+  background-color: #fff;
+  text-align: left;
+  line-height: 2.5;
+}
+.bookPage input {
+  width: 100%;
+  padding: 10px;
+  color: lightgray;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+.bookPage #aromatherapyAddOn,
+#hotStonesAddOn,
+#footScrubAddOn,
+#faceMassageAddOn {
+  display: inline-block;
+  width: 23%;
+}
+.bookPage .error {
+  border: 1.5px solid #ff3846;
+}
+
+.bookPage form p {
+  display: none;
+  color: #ff3846;
+}
+
+/* below begins media query */
+@media screen and (max-width: 500px) {
+  body {
+    max-width: 100%;
+  }
+  nav {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+    text-align: left;
+  }
+  .hamburger:hover {
+    color: lightgray;
+  }
+
+  .navbar {
+    height: 100px;
+    width: 100%;
+  }
+
+  .header-logo {
+    display: none;
+  }
+  .services {
+    display: block;
+  }
+
+  footer {
+    display: block;
+    text-align: center;
+  }
+
+  .bookPage form h1 {
+    text-align: center;
+  }
+
+  .bookPage form {
+    margin: 0;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 0px;
+  }
+  .bookAppointment input {
+    width: 90%;
+  }
+  header {
+    height: 350px;
+  }
+  header h1,
+  .servicePage header h1 {
+    font-size: 30px;
+    padding: 0;
+  }
+  .servicePage .header {
+    height: 350px;
+  }
+  .servicePage .bodyBlock h1 {
+    display: none;
+  }
+  .servicePage h3 {
+    text-align: center;
+  }
+  .servicePage button {
+    display: none;
+  }
+  .slick-slide img,
+  .servicePage .slick-slide img {
+    width: 100%;
+    height: 350px;
+  }
+  .servicePage .exclusiveImg {
+    display: none;
+  }
+  .firstSecondBlock,
+  .thirdFourthBlock,
+  .fifthSixthBlock,
+  .seventhEigthBlock {
+    display: block;
+  }
+}
