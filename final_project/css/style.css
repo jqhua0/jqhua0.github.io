@@ -394,6 +394,7 @@ footer i {
   }
   .bookAppointment input {
     width: 90%;
+    background-color: white;
   }
   header {
     height: 350px;
